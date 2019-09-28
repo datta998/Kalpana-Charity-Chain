@@ -1,2 +1,2 @@
 # Kalpana-Charity-Chain
-Repository for Kalana hackathon
+Repository for Kalpana hackathon
