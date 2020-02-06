@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <button id="btn">Click me</button>
+        <script>
+            window.onload = function() {
+                let btn = document.getElementById('btn');   
+
+                function checkButton(){
+                    let date = new Date();
+                    let hours = date.getHours();
+                    let minutes = date.getMinutes();
+
+                    let min = hours*60 + minutes;
+                    if(min > 11*60 && min < 16*60) {
+                      //$("#btn").hide();
+                      btn.style.display = 'none';
+                      console.log('btn hide');
+                    }else {
+                      //$("#btn").show();
+                      btn.style.display = 'block';
+                      console.log('btn show');
+                    }
+                }
+
+                setInterval(checkButton, 6000);
+            }
+        </script>
+    </body>
+
+</html>
