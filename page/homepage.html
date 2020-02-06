@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="ngo.css">
+    <title>Home</title>
+</head>
+<body>
+    <!--read the description of ngo and display here-->
+    <!--read the status of acceptance and store it in a variable-->
+    <!--use the variable name as "status"-->
+    <!--if this code works use it :)-->
+    <h1>We are in home</h1>
+    <button onclick="mybutton()">Check status</button>
+    <script>
+        var status="accept";
+        var x=status.localeCompare("accept");
+        function mybutton() {
+        if(x==0){
+            //window.location("http://127.0.0.1:5500/ucform.html");
+            document.write("yay!");
+        }
+    }
+    </script>
+   
+
+</body>
+</html>
