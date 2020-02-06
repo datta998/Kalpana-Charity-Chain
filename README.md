@@ -1,2 +1,1 @@
-# Kalpana-Charity-Chain
-Repository for Kalpana hackathon
+Repository for SIH hackathon
